@@ -1,7 +1,7 @@
 <div class="container" style="margin-top: 5em;">
     <h3>Cadastros - Adicionar Novo Usuário</h3>
     <div class="row">
-        <form  method="POST" action="produtos_save" class="col-lg-10">
+        <form  method="POST" action="produtos_update" class="col-lg-10">
           
             <div class="form-group">
                     <label for="produto">Produto</label>
@@ -21,7 +21,7 @@
             
             <div class="form-group">
                     <label for="perco" >Preço</label>
-                    <input type="number" step="any" name="perco" id="perco"  class="form-control" value="<?php echo $produtos->show->preco ?>" />
+                    <input type="number" step="any" name="perco" id="perco"  class="form-control" value="<?php echo $produtos->show->preco ?>">
             </div>
         
           

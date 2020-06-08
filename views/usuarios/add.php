@@ -10,12 +10,12 @@
                     
             <div class="form-group">
                 <label for="nome"  >Nome Completo</label>
-                <input type="text" name="nome" id="nome"  class="form-control" />
+                <input type="text" name="nome" id="nome"  class="form-control">
             </div>
             
             <div class="form-group">
                     <label for="email" >Email</label>
-                    <input type="text" name="email" id="email"  class="form-control" />
+                    <input type="text" name="email" id="email"  class="form-control">
             </div>
         
           

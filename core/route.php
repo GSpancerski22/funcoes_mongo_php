@@ -15,9 +15,11 @@ $route[]=['produtos_save',  'produtos/save'];
 
 $route[]=['marcas_edit',  'marcas/edit'];
 $route[]=['produtos_edit',  'produtos/edit'];
+$route[]=['usuarios_edit',  'usuarios/edit'];
 
 $route[]=['marcas_update',  'marcas/update'];
 $route[]=['produtos_update',  'produtos/update'];
+$route[]=['usuarios_update',  'usuarios/update'];
 
 
 

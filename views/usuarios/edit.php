@@ -1,7 +1,7 @@
 <div class="container" style="margin-top: 5em;">
     <h3>Cadastros - Atualizar  Usuário</h3>
     <div class="row">
-        <form  method="POST" action="atualizar" class="col-lg-10">
+        <form  method="POST" action="usuarios_update" class="col-lg-10">
            
         <?php foreach($cursor as $c) { ?>
             <div class="form-group">
@@ -21,10 +21,8 @@
             </div>
         
         <?php } ?>
-           
-       
-            <div class="form-group">
-                <a href="http://localhost/3_p_mongodb_video_aula/" id="cancelar" class="btn btn-raised btn-danger">Cancelar</a>
+        <div class="form-group">
+                <a href="usuarios" id="cancelar" class="btn btn-raised btn-danger">Cancelar</a>
                 <button type="submit" class="btn btn-raised btn-success">Salvar</button>
                 
             </div>

@@ -5,9 +5,9 @@
 
     $filter = ["_id"=>$id];
     $option=[];
-    $collection = "ecommerce.produtos";
+    $collection = "ecommerce.usuarios";
 
-    $produtos = find($filter, $option, $collection);
+    $cursor= find($filter, $option, $collection);
 
-    require_once __DIR__."/../../views/produtos/edit.php";
+    require_once __DIR__."/../../views/usuarios/edit.php";
 

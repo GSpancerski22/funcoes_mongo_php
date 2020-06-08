@@ -16,7 +16,7 @@
         <td><?php echo $c->cpf ?></td>
         <td><?php echo $c->nome ?></td>
         <td><?php echo $c->email ?></td>
-        <td><a href="editar?id=<?php echo $c->_id ?>" class="bnt">Editar</a></td>
+        <td><a href="usuarios_edit?id=<?php echo $c->_id ?>" class="bnt">Editar</a></td>
         </tr>
     <?php } ?>
     </tbody>
